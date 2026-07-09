@@ -3,8 +3,27 @@
 
 # @seneca/jsonfile-store
 
+# seneca-jsonfile-store
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Dependency Status][david-badge]][david-url]
+[![Gitter][gitter-badge]][gitter-url]
+
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
+
+## Description
+This module is a plugin for [Seneca.js][]. It provides a storage engine that uses JSON files to
+persist data. This module is not appropriate for production usage, it is intended for very low
+workloads, and as a example of a storage plugin code base.
+
+For a gentle introduction to Seneca itself, see the [senecajs.org][seneca.js] site.
+
+### Seneca compatibility
+Supports Seneca versions **1.x** - **3.x**
+
+### Supported functionality
+All Seneca data store supported functionality is implemented in [seneca-store-test](https://github.com/senecajs/seneca-store-test) as a test suite. The tests represent the store functionality specifications.
 
 ## Install
 
