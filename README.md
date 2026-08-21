@@ -1,7 +1,7 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
 > A [Seneca.js](http://senecajs.org) plugin
 
-# seneca-jsonfile-store
+# @seneca/jsonfile-store
 
 [![npm version](https://img.shields.io/npm/v/seneca-jsonfile-store.svg)](https://npmjs.com/package/seneca-jsonfile-store)
 [![build](https://github.com/senecajs/seneca-jsonfile-store/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-jsonfile-store/actions/workflows/build.yml)
