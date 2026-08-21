@@ -10,7 +10,7 @@
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
 
-A [Seneca.js](http://senecajs.org) entity store using JSON files. Not appropriate for production usage — intended for low workloads and as an example of a storage plugin.
+A [Seneca.js](http://senecajs.org) entity store using JSON files.
 
 ## Install
 
@@ -42,7 +42,19 @@ See [test/](test/) for more usage examples.
 
 ## Motivation
 
-A storage engine that uses JSON files to persist data. You don't use this module directly — it provides an underlying data storage engine for the Seneca entity API:
+A storage engine that uses JSON files to persist data. Not appropriate for production usage — intended for low workloads and as an example of a storage plugin.
+
+## Support
+
+If you're using this module and need help, you can:
+
+- Post a [github issue](https://github.com/senecajs/seneca-jsonfile-store/issues)
+- Tweet to [@senecajs](http://twitter.com/senecajs)
+- Ask on the [Gitter](https://gitter.im/senecajs/seneca)
+
+## API
+
+You don't use this module directly. It provides an underlying data storage engine for the Seneca entity API:
 
 ```js
 var entity = seneca.make$('typename')
@@ -54,16 +66,6 @@ entity.load$({id: ... }, function (err, entity) { ... })
 entity.list$({property: ... }, function (err, entity) { ... })
 entity.remove$({id: ... }, function (err, entity) { ... })
 ```
-
-## Support
-
-If you're using this module and need help, you can:
-
-- Post a [github issue](https://github.com/senecajs/seneca-jsonfile-store/issues)
-- Tweet to [@senecajs](http://twitter.com/senecajs)
-- Ask on the [Gitter](https://gitter.im/senecajs/seneca)
-
-## API
 
 ### Query Support
 
