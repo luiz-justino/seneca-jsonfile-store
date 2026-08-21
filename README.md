@@ -10,6 +10,8 @@
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
 
+A [Seneca.js](http://senecajs.org) entity store using JSON files.
+
 ## Install
 
 To install, simply use npm. Remember you will need to install [Seneca.js][] separately.
@@ -106,5 +108,6 @@ This plugin stores data as JSON files on disk.
 [![Build Status][travis-badge]][travis-url]
 [![Dependency Status][david-badge]][david-url]
 [![Gitter][gitter-badge]][gitter-url]
+[MIT]: ./LICENSE
 [Senecajs org]: https://github.com/senecajs/
 [Seneca.js]: https://www.npmjs.com/package/seneca
